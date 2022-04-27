@@ -1,5 +1,5 @@
 # pull the official base image
-FROM python:3.8.3-alpine
+FROM registry.redhat.io/ubi8/python-38:1-94
 
 # set work directory
 WORKDIR /usr/src/app
